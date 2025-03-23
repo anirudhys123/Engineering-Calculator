@@ -76,10 +76,7 @@ const conversionFactors = {
     }
   }
   
-  function toggleDarkMode() {
-    document.body.classList.toggle("dark");
-    document.getElementById("themeIcon").innerText = document.body.classList.contains("dark") ? "☀️" : "🌙";
-  }
+ 
   
   // Initialize on page load
   updateUnits();
